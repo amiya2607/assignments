@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-decoration: none;
+        }
+
+        .navigate{
+            background-color: aliceblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+
+        }
+        .item li{
+            padding-right: 35px;
+        }
+       
+
+        
+        img{
+            width: 36px;
+            height: 36px;
+            
+            
+        }
+        li{
+            list-style: none;
+            display: inline-flex;
+            margin: 15px 15px 
+            font-size: large;
+            padding left: 10px;
+            padding right: 10px;
+          
+        }
+        #store{
+            color: orangered;
+        }
+        .dis li{
+            padding-right: 35px;
+        }
+        #banner{
+            display: flex;
+            margin: 40px 10% 40px 10%  ;
+            width: 80%;
+            height: 250px;
+            
+
+        }
+        #parent{
+            height: 350px;
+            width: 80%;
+            
+            display: flex;
+            margin: 0px 10% 40px 10%  ;
+        }
+        #child1{
+            height: 100%;
+            width: 25%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-right: 20px;
+        }
+        #child2{
+            height: 100%;
+            width: 25%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-right: 20px;
+        }
+        #child3{
+            height: 100%;
+            width: 25%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-right: 20px;
+        }
+        #child4{
+            height: 100%;
+            width: 25%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        h2{
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        #offer{
+            width: 80px;
+            height: 25px;
+            border: 1px solid orangered;
+            font-size: medium;
+            margin-left: 40px;
+            text-align: center;
+            border-radius: 6px;
+            color: orangered;
+            background-color: rgb(235, 197, 173);
+
+        }
+        #image{
+            width: 140px;
+            height: 170px;
+            margin-left: 50%;
+            margin-top: 30px;
+        }
+
+        #new{
+            font-size: larger;
+            margin-left: 30px;
+            margin-top: -50px;
+
+        }
+        #old{
+            font-size: medium;
+            margin-left: 30px;
+            margin-bottom: 60px;
+            margin-top: -15px;
+            text-decoration: line-through;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navigate">
+    <div class="navdiv" id="navdiv">
+        <div class="logo"><a href="#">
+    <img src="milogo.png" alt="milogo"></a>
+    </div>
+    <div class="item">
+    <ul>
+        <li><a href="#" id="store">Store</a></li>
+        <li><a href="#">Phone</a></li>
+        <li><a href="#">TV & Smartphone</a></li>
+        <li><a href="#">Tablet</a></li>
+        <li><a href="#">Lifestyle</a></li>
+    </ul>
+    </div>
+    <ul class="dis">
+       
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">👤</a></li>
+        <li><a href="#">🛒</a></li>
+        <li><a href="#">🔍</a></li>
+    </ul>
+    
+    
+    </div>
+    </nav>
+    </header>
+<div>
+    <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\banner1.jpg" alt="banner1" id="banner">
+</div>
+<div id="parent">
+    <div id="child1">
+        <h2>Redmi 13C</h2>
+        <div id="offer">
+            15% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\phone2.jpeg" alt="phone1" id="image">
+        <p id="new">₹7000</p>
+        <p id="old">₹9000</p>
+    </div>
+    <div id="child2">
+        <h2>Redmi 14 Pro</h2>
+        <div id="offer">
+            25% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\phone.jpeg" alt="phone2" id="image">
+        <p id="new">₹7500</p>
+        <p id="old">₹10000</p>
+    </div>
+    <div id="child3">
+        <h2>Redmi 15C</h2>
+        <div id="offer">
+            30% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\phone2.jpeg" alt="phone3" id="image">
+        <p id="new">₹12000</p>
+        <p id="old">₹15000</p>
+    </div>
+    <div id="child4">
+        <h2>Redmi 15 Pro</h2>
+        <div id="offer">
+            40% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\phone.jpeg" alt="phone4" id="image">
+        <p id="new">₹12000</p>
+        <p id="old">₹20000</p>
+    </div>
+
+ 
+</div>
+<div>
+    <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\banner2.jpg" alt="banner2" id="banner">
+</div>
+<div id="parent">
+    <div id="child1">
+        <h2>Smart TV</h2>
+        <div id="offer">
+            45% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\tv1.jpeg" alt="tv1" id="image">
+        <p id="new">₹24000</p>
+        <p id="old">₹29000</p>
+    </div>
+    <div id="child2">
+        <h2>Android TV 32inch</h2>
+        <div id="offer">
+            25% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\phone.jpeg" alt="tv2" id="image">
+        <p id="new">₹20500</p>
+        <p id="old">₹25000</p>
+    </div>
+    <div id="child3">
+        <h2>Android TV</h2>
+        <div id="offer">
+            20% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\tv1.jpeg" alt="tv3" id="image">
+        <p id="new">₹19000</p>
+        <p id="old">₹23000</p>
+    </div>
+    <div id="child4">
+        <h2>Google TV</h2>
+        <div id="offer">
+            40% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\phone.jpeg" alt="tv4" id="image">
+        <p id="new">₹22000</p>
+        <p id="old">₹29000</p>
+    </div>
+
+ 
+</div>
+<div>
+    <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\banner2.jpg" alt="banner3" id="banner">
+</div>
+<div id="parent">
+    <div id="child1">
+        <h2>Buds Live</h2>
+        <div id="offer">
+            45% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\tv1.jpeg" alt="ear1" id="image">
+        <p id="new">₹4000</p>
+        <p id="old">₹9000</p>
+    </div>
+    <div id="child2">
+        <h2>Earbuds Trinity</h2>
+        <div id="offer">
+            25% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\phone.jpeg" alt="ear2" id="image">
+        <p id="new">₹1500</p>
+        <p id="old">₹2000</p>
+    </div>
+    <div id="child3">
+        <h2>Earbuds 2</h2>
+        <div id="offer">
+            20% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\tv1.jpeg" alt="ear3" id="image">
+        <p id="new">₹1900</p>
+        <p id="old">₹3000</p>
+    </div>
+    <div id="child4">
+        <h2>Earbuds Pro</h2>
+        <div id="offer">
+            40% OFF
+        </div>
+        
+        <img src="C:\Users\PC-LENOVO\Desktop\assignments web\assignments\phone.jpeg" alt="ear4" id="image">
+        <p id="new">₹2000</p>
+        <p id="old">₹5000</p>
+    </div>
+
+ 
+</div>
+</body>
+</html>
