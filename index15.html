@@ -1,0 +1,104 @@
+<html>
+    <head></head>
+    <title>table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+        td{
+            border: 3px solid black;
+            padding: 8px 10px;
+            
+        }
+        th{
+            border: 3px solid black;
+            padding: 8px 10px;
+            background-color: rgb(181, 181, 181);
+            color: black;
+        }
+        caption{
+            caption-side: top;
+            padding: auto;
+        }
+        tr:nth-child(3n+1){
+            color: green;
+            font-weight: bolder;
+        }
+
+        tr:nth-child(4n + 2){
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        tr:last-child{
+            background-color: yellow;
+        }
+
+    </style>
+    <body>
+        <table>
+            <caption>product information</caption>
+            <tr>
+                <th scope="col">product name</th>
+                <th scope="col">quantity</th>
+                <th scope="col">total price</th>
+            </tr>
+            <tr>
+                <td>product 1</td>
+                <td>2</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>product 2</td>
+                <td>3</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>product 3</td>
+                <td>1</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>product 4</td>
+                <td>7</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>product 5</td>
+                <td>3</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>product 6</td>
+                <td>5</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>product 7</td>
+                <td>8</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>product 8</td>
+                <td>3</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>product 9</td>
+                <td>6</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>product 10</td>
+                <td>5</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td colspan="2">sum</td>
+                <td>$80</td>
+            </tr>
+        </table>
+    </body>
+
+    </html>
